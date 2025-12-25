@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function SmallSliderItem({ item, goToSlide, idx, currentSlide }) {
+export function SmallProductSliderItem({ item, goToSlide, idx, currentSlide }) {
   const isActiveSlide = currentSlide === idx;
 
   return (

@@ -2,11 +2,11 @@
 
 import { useRef, useState } from "react";
 
-import { SmallSliderItem } from "@/app/small-slider-item";
+import { SmallProductSliderItem } from "@/app/small-product-slider-item";
 
 import Image from "next/image";
 
-export function Slider({ sliderItemsList = [] }) {
+export function ProductSlider({ sliderItemsList = [] }) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const startX = useRef(null);
 
@@ -99,7 +99,7 @@ export function Slider({ sliderItemsList = [] }) {
       <ul className="flex gap-5 flex-wrap">
         {sliderItemsList.map((item, idx) => {
           return (
-            <SmallSliderItem
+            <SmallProductSliderItem
               key={item.id}
               item={item}
               goToSlide={goToSlide}
