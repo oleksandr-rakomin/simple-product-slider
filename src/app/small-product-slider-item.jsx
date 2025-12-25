@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export function SmallSliderItem({ item, goToSlide, idx, currentSlide }) {
+export function SmallProductSliderItem({ item, goToSlide, idx, currentSlide }) {
   const isActiveSlide = currentSlide === idx;
 
   return (
@@ -12,7 +12,7 @@ export function SmallSliderItem({ item, goToSlide, idx, currentSlide }) {
         }}
         aria-label={`Go to slide ${idx + 1}`}
         aria-current={isActiveSlide ? "true" : undefined}
-        aria-controls="slider"
+        aria-controls="product-slider"
         className="relative overflow-hidden size-20 cursor-pointer"
       >
         <Image

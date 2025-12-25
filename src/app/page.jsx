@@ -1,4 +1,4 @@
-import { Slider } from "@/app/slider";
+import { ProductSlider } from "@/app/product-slider";
 
 import {
   angryPikachuPokemon,
@@ -17,7 +17,7 @@ const sliderItemsList = [
 export default function Home() {
   return (
     <div className="main-container flex gap-x-5 py-10 bg-fuchsia-200">
-      <Slider sliderItemsList={sliderItemsList} />
+      <ProductSlider sliderItemsList={sliderItemsList} />
 
       <p className="flex-1">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
