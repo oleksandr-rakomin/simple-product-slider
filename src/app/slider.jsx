@@ -48,7 +48,7 @@ export function Slider({ sliderItemsList = [] }) {
   return (
     <div className="flex-1 flex flex-col gap-y-5 bg-fuchsia-300">
       <div
-        id="slider"
+        id="product-slider"
         onTouchStart={handleTouchStart}
         onTouchEnd={handleTouchEnd}
         className="relative overflow-hidden h-150 touch-pan-x"
@@ -78,7 +78,7 @@ export function Slider({ sliderItemsList = [] }) {
             onClick={prevSlide}
             disabled={currentSlide === 0}
             aria-label="Previous slide"
-            aria-controls="slider"
+            aria-controls="product-slider"
             className="bg-fuchsia-500 p-2 cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed"
           >
             {"<"}
@@ -88,7 +88,7 @@ export function Slider({ sliderItemsList = [] }) {
             onClick={nextSlide}
             disabled={currentSlide === sliderItemsList.length - 1}
             aria-label="Next slide"
-            aria-controls="slider"
+            aria-controls="product-slider"
             className="bg-fuchsia-500 p-2 cursor-pointer disabled:opacity-70 disabled:cursor-not-allowed"
           >
             {">"}
