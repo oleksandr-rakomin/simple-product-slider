@@ -1,10 +1,9 @@
 "use client";
 
 import { useRef, useState } from "react";
+import Image from "next/image";
 
 import { SmallProductSliderItem } from "@/app/small-product-slider-item";
-
-import Image from "next/image";
 
 export function ProductSlider({ sliderItemsList = [] }) {
   const [currentSlide, setCurrentSlide] = useState(0);
