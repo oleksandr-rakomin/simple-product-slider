@@ -1,6 +1,6 @@
 # Simple product slider
 
-### Low Complexity — ~8 hours
+## Low Complexity — ~8 hours
 
 - Basic image slider implementation
 - Next.js + `next/image` integration
@@ -9,9 +9,7 @@
 - Disabled states for navigation
 - Thumbnail navigation (click to change slide)
 
----
-
-### Medium Complexity — ~16 hours
+## Medium Complexity — ~16 hours
 
 - Touch swipe support (horizontal gestures)
 - Swipe threshold handling
@@ -26,9 +24,7 @@
 - Controlled state management
 - Prevented unwanted interactions (drag, scroll conflicts)
 
----
-
-### High Complexity — ~32 hours
+## High Complexity — ~32 hours
 
 - Accessibility-first approach (WCAG-friendly structure)
 - Screen reader–friendly navigation
